@@ -20,9 +20,14 @@ div {
   border-top-color: yellow;
 }
 #green {
-  border-top-color: orange;
+  border-top-color: green;
 }
-
+#blue {
+  border-top-color: blue;
+}
+#indigo {
+  border-top-color: indigo;
+}
 #violet {
   border-top-color: blue;
 }
