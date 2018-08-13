@@ -8,10 +8,6 @@
 
   <body><!-- the body element is where everything we will see on the page will go -->
 <!--context 'within <body>' do-->
-      it 'contains a <div> tag with an id of "red" ' do
-        red_div = parsed_html.search('#red').first
-        expect(red_div).to_not be_nil, "Add the id 'red' to the first, outer div"
-        expect(red_div.name).to eq('div'), "Add the id 'red' to the first, outer div"
     <!-- our soon to be beautiful rainbow! -->
       <div id="red">
         <div id="orange">
